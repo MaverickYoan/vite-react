@@ -5,6 +5,6 @@ import './wink.css'
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
-        <App />
+        <wink />
     </StrictMode>,
 )
