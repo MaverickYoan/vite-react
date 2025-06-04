@@ -8,6 +8,22 @@ function App() {
 
   return (
     <>
+      <div className="filters">
+        <div className="filter-group"></div>
+        <label htmlFor="genreFilter">Genre:</label>
+        <select id="genreFilter">
+          <option value="">Tous les genres</option>
+          <option value="Action">Action</option>
+          <option value="Aventure">Aventure</option>
+          <option value="RPG">RPG</option>
+          <option value="Strategie">Stratégie</option>
+          <option value="Sport">Sport</option>
+          <option value="Course">Course</option>
+          <option value="Simulation">Simulation</option>
+          <option value="Puzzle">Puzzle</option>
+        </select>
+      </div>
+
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
