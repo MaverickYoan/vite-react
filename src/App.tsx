@@ -24,6 +24,8 @@ function App() {
         </select>
       </div>
 
+      <button type="button" className="btn-primary" onClick={() => 'save'}>Enregistrer</button>
+      <button type="button" className="btn-secondary" onClick={close}>Annuler</button>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
